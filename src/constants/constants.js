@@ -1,0 +1,6 @@
+export const GET_PHOTO_REQUEST = 'GET_PHOTO_REQUEST';
+export const GET_PHOTO_SUCCESS = 'GET_PHOTO_SUCCESS';
+export const GET_PHOTO_FAIL = 'GET_PHOTO_FAIL';
+export const LOGIN_REQUEST = 'LOGIN_REQUEST';
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGIN_FAIL = 'LOGIN_FAIL';
