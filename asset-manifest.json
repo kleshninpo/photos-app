@@ -1,13 +1,13 @@
 {
   "main.css": "/photos-app/static/css/main.e2c863f9.chunk.css",
-  "main.js": "/photos-app/static/js/main.638994b6.chunk.js",
-  "main.js.map": "/photos-app/static/js/main.638994b6.chunk.js.map",
+  "main.js": "/photos-app/static/js/main.82226bb4.chunk.js",
+  "main.js.map": "/photos-app/static/js/main.82226bb4.chunk.js.map",
   "static/js/1.657a2fa4.chunk.js": "/photos-app/static/js/1.657a2fa4.chunk.js",
   "static/js/1.657a2fa4.chunk.js.map": "/photos-app/static/js/1.657a2fa4.chunk.js.map",
   "runtime~main.js": "/photos-app/static/js/runtime~main.2d31feaf.js",
   "runtime~main.js.map": "/photos-app/static/js/runtime~main.2d31feaf.js.map",
   "static/css/main.e2c863f9.chunk.css.map": "/photos-app/static/css/main.e2c863f9.chunk.css.map",
   "index.html": "/photos-app/index.html",
-  "precache-manifest.f2dcf5944a2d87b23fed25d33657e247.js": "/photos-app/precache-manifest.f2dcf5944a2d87b23fed25d33657e247.js",
+  "precache-manifest.9d760e7ab245a149ecbda24e940b62e4.js": "/photos-app/precache-manifest.9d760e7ab245a149ecbda24e940b62e4.js",
   "service-worker.js": "/photos-app/service-worker.js"
 }
