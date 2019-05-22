@@ -36,7 +36,7 @@ export const getMorePhotos = (year, count, offset, dispatch) => {
   //eslint-disable-next-line no-undef
   VK.Api.call(
     'photos.getAll',
-    { count: count, offset: offset, extended: 1, v: '5.92' },
+    { count: count, offset: offset, extended: 1, v: '5.95' },
     r => {
       console.log(r);
       try {
