@@ -36,14 +36,14 @@ export const getMorePhotos = (year, count, offset, dispatch) => {
   //eslint-disable-next-line no-undef
   VK.Api.call(
     'photos.getAll',
-    { count: count, offset: offset, extended: 1, v: '5.92' },
+    { count: count, offset: offset, extended: 1, v: '5.95' },
     r => {
       console.log(r);
       try {
         photosArr = photosArr.concat(r.response.items);
         if (offset <= r.response.count) {
           offset += 200;
-          getMorePhotos(year, count, offset, dispatch);
+          setTimeout(getMorePhotos, 334, year, count, offset, dispatch);
         } else {
           yearsArr = getUserYears(photosArr);
           let photos = makeYearPhotos(photosArr, year);

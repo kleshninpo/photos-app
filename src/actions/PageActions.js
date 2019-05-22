@@ -19,6 +19,6 @@ export const getPhotos = year => dispatch => {
       },
     });
   } else {
-    getMorePhotos(year, 200, 0, dispatch);
+    setTimeout(getMorePhotos, 334, year, 200, 0, dispatch);
   }
 };
