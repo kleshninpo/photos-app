@@ -43,7 +43,7 @@ export const getMorePhotos = (year, count, offset, dispatch) => {
         photosArr = photosArr.concat(r.response.items);
         if (offset <= r.response.count) {
           offset += 200;
-          getMorePhotos(year, count, offset, dispatch);
+          setTimeout(getMorePhotos, 334, year, count, offset, dispatch);
         } else {
           yearsArr = getUserYears(photosArr);
           let photos = makeYearPhotos(photosArr, year);
